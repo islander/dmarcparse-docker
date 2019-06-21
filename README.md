@@ -39,5 +39,6 @@ $ sudo cp dmarcparse /usr/local/bin/
 
 ## FAQ
 
-*Q:* I get `the input device is not a TTY` error, when running parser from `cron`.
-*A:* If you using `dmarcparse` from `cron`, remove `--tty` argument in docker call.
+**Q:** I get `the input device is not a TTY` error, when running parser from `cron`.
+
+**A:** If you using `dmarcparse` from `cron`, remove `--tty` argument in docker call.

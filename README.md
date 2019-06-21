@@ -14,7 +14,7 @@ Copy sample config to etc:
 
 ```
 $ sudo mkdir /etc/dmarcts
-$ sudo copy dmarcts-report-parser.conf.sample /etc/dmarcts/dmarcts-report-parser.conf
+$ sudo cp dmarcts-report-parser.conf.sample /etc/dmarcts/dmarcts-report-parser.conf
 ```
 
 Configure MySQL and IMAP credentials:

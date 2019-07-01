@@ -3,6 +3,7 @@ ARG PARSER_URL=https://raw.githubusercontent.com/techsneeze/dmarcts-report-parse
 # Install dependencies
 RUN apt-get update && apt-get -y install \
     unzip \
+    libfile-mimeinfo-perl \
     libmail-imapclient-perl \
     libmime-tools-perl \
     libxml-simple-perl \

@@ -5,7 +5,7 @@
 # Put this script in $PATH as `dmarcparse`
 
 PROGNAME="$(basename $0)"
-VERSION="0.0.1"
+VERSION="0.0.3"
 
 # Helper functions for guards
 error(){

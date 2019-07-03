@@ -1,4 +1,5 @@
 FROM ubuntu:18.04
+ADD VERSION .
 ARG PARSER_URL=https://raw.githubusercontent.com/techsneeze/dmarcts-report-parser/master/dmarcts-report-parser.pl
 # Install dependencies
 RUN apt-get update && apt-get -y install \
